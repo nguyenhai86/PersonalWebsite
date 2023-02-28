@@ -17,9 +17,7 @@ function App() {
               className="avatar"></img>
             <span>{value.name}</span>
           </td>
-          <td>
-            <p>{value.name}</p>
-          </td>
+
           <td>{value.description}</td>
         </tr>
       );
@@ -35,7 +33,6 @@ function App() {
           <thead>
             <tr>
               <th>Website</th>
-              <th>Đường dẫn</th>
               <th>Mô tả</th>
             </tr>
           </thead>
