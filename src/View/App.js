@@ -18,7 +18,7 @@ function App() {
             <span>{value.name}</span>
           </td>
           <td>
-            <a href={value.url}>{value.name}</a>
+            <p>{value.name}</p>
           </td>
           <td>{value.description}</td>
         </tr>
