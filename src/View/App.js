@@ -1,10 +1,21 @@
 import "./App.scss";
-import data from "./../data.json";
+import data from "./../Data/data.json";
 import headerImage from "./../Images/header.jpg";
-
+import fileExcel from "./../Data/FileExcel1068.xlsx";
 function App() {
+  function downloadFile(filePath) {
+    var link = document.createElement("a");
+    link.href = filePath;
+    link.download = filePath.substr(filePath.lastIndexOf("/") + 1);
+    link.click();
+  }
   const handleClick = (url) => {
-    window.open(url);
+    if (url == "FileExcel") {
+      let password = prompt("Password: ");
+      if (password == "156") {
+        downloadFile(fileExcel);
+      } else alert("Password is wrong");
+    } else window.open(url);
   };
   const mapData = () => {
     return data.map((value, index) => {
