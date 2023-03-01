@@ -1,10 +1,13 @@
-@import "~bootstrap/scss/bootstrap";
 html {
   font-size: 62.5%;
 }
 body {
   font-family: Verdana, sans-serif;
   font-size: 1.6rem;
+  -moz-user-select: none; /* firefox */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE */
+  user-select: none; /* Standard syntax */
 }
 * {
   box-sizing: border-box;

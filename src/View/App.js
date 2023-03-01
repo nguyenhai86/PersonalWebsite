@@ -2,7 +2,14 @@ import "./App.scss";
 import data from "./../Data/data.json";
 import headerImage from "./../Images/header.jpg";
 import fileExcel from "./../Data/FileExcel1068.xlsx";
+import md5 from "md5";
+import hashPasswordStr from "./../Data/password.json";
 function App() {
+  const hashPassword = (password) => {
+    password = "!@@afs" + password + "!@8ads";
+    password = md5(password);
+    return md5(password);
+  };
   function downloadFile(filePath) {
     var link = document.createElement("a");
     link.href = filePath;
@@ -13,7 +20,11 @@ function App() {
     // eslint-disable-next-line
     if (url == "FileExcel") {
       let password = prompt("Password: ");
-      if (password === "156") {
+      console.log(hashPassword(password));
+      if (
+        password != null &&
+        hashPassword(password) === hashPasswordStr.value
+      ) {
         downloadFile(fileExcel);
       } else alert("Password is wrong");
     } else window.open(url);
