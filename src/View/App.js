@@ -20,7 +20,6 @@ function App() {
     // eslint-disable-next-line
     if (url == "FileExcel") {
       let password = prompt("Password: ");
-      console.log(hashPassword(password));
       if (
         password != null &&
         hashPassword(password) === hashPasswordStr.value
