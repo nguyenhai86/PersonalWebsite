@@ -1,10 +1,9 @@
 import "./App.scss";
 import data from "./../Data/data.json";
 import headerImage from "./../Images/header.jpg";
-import fileExcel from "./../Data/FileExcel1068.xlsx";
+import fileData from "./../Data/NguyenDuyHai.zip";
 import md5 from "md5";
 import hashPasswordStr from "./../Data/password.json";
-import macroFile from "./../Data/macro.txt";
 function App() {
   const hashPassword = (password) => {
     password = "!@@afs" + password + "!@8ads";
@@ -25,8 +24,7 @@ function App() {
         password != null &&
         hashPassword(password) === hashPasswordStr.value
       ) {
-        downloadFile(fileExcel);
-        downloadFile(macroFile);
+        downloadFile(fileData);
       } else alert("Password is wrong");
     } else window.open(url);
   };
