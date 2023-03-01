@@ -10,9 +10,10 @@ function App() {
     link.click();
   }
   const handleClick = (url) => {
+    // eslint-disable-next-line
     if (url == "FileExcel") {
       let password = prompt("Password: ");
-      if (password == "156") {
+      if (password === "156") {
         downloadFile(fileExcel);
       } else alert("Password is wrong");
     } else window.open(url);
