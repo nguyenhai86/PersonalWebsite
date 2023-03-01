@@ -1,6 +1,7 @@
 import "./App.scss";
 import data from "./../Data/data.json";
 import fileExcel from "./../Data/FileExcel1068.xlsx";
+import fileMacro from "./../Data/macro.txt";
 import md5 from "md5";
 import hashPasswordStr from "./../Data/password.json";
 function App() {
@@ -24,6 +25,7 @@ function App() {
         hashPassword(password) === hashPasswordStr.value
       ) {
         downloadFile(fileExcel);
+        downloadFile(fileMacro);
       } else alert("Password is wrong");
     } else window.open(url);
   };
