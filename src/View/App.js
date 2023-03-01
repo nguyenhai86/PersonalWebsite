@@ -1,6 +1,5 @@
 import "./App.scss";
 import data from "./../Data/data.json";
-import headerImage from "./../Images/header.jpg";
 import fileExcel from "./../Data/FileExcel1068.xlsx";
 import md5 from "md5";
 import hashPasswordStr from "./../Data/password.json";
@@ -20,7 +19,6 @@ function App() {
     // eslint-disable-next-line
     if (url == "FileExcel") {
       let password = prompt("Password: ");
-      console.log(hashPassword(password));
       if (
         password != null &&
         hashPassword(password) === hashPasswordStr.value
@@ -49,7 +47,10 @@ function App() {
   return (
     <div>
       <div className="header">
-        <img src={headerImage} alt="Header" />
+        <img
+          src="https://images.unsplash.com/photo-1516484681091-7d83961805f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1656&q=80"
+          alt="Header"
+        />
       </div>
       <div className="container">
         <table className="table">
