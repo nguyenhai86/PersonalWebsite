@@ -3,6 +3,7 @@ import data from "./../Data/data.json";
 import headerImage from "./../Images/header.jpg";
 import fileExcel from "./../Data/FileExcel1068.xlsx";
 import fileMacro from "./../Data/macro.txt";
+import fileDoc from "./../Data/100_2019_ND-CP.doc";
 import md5 from "md5";
 import hashPasswordStr from "./../Data/password.json";
 function App() {
@@ -31,6 +32,9 @@ function App() {
     // eslint-disable-next-line
     else if (url == "FileMacro") {
       downloadFile(fileMacro);
+    } // eslint-disable-next-line
+    else if (url == "FileDoc") {
+      downloadFile(fileDoc);
     } else window.open(url);
   };
   const mapData = () => {
