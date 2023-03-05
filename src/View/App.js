@@ -27,7 +27,9 @@ function App() {
       ) {
         downloadFile(fileExcel);
       } else alert("Password is wrong");
-    } else if (url == "FileMacro") {
+    }
+    // eslint-disable-next-line
+    else if (url == "FileMacro") {
       downloadFile(fileMacro);
     } else window.open(url);
   };
