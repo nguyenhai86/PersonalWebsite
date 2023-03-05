@@ -1,7 +1,8 @@
 import "./App.scss";
 import data from "./../Data/data.json";
 import headerImage from "./../Images/header.jpg";
-import fileData from "./../Data/NguyenDuyHai.zip";
+import fileExcel from "./../Data/FileExcel1068.xlsx";
+import fileMacro from "./../Data/macro.txt";
 import md5 from "md5";
 import hashPasswordStr from "./../Data/password.json";
 function App() {
@@ -24,8 +25,10 @@ function App() {
         password != null &&
         hashPassword(password) === hashPasswordStr.value
       ) {
-        downloadFile(fileData);
+        downloadFile(fileExcel);
       } else alert("Password is wrong");
+    } else if (url == "FileMacro") {
+      downloadFile(fileMacro);
     } else window.open(url);
   };
   const mapData = () => {

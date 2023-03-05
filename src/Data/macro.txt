@@ -1,0 +1,8 @@
+DO NOT DELETE THIS LINE*** version=1 ***
+gtnd:Tong dai 1068 gui thong tin theo yêu cầu Quy khach: De biet thong tin khac vui long goi 1068. Xin tran trong cam on!
+gttk:"ĐÃ SMS KH"
+ttnd:Cam on Quy khach da goi den Tong dai Thong tin Kinh te - Xa hoi 1068 cua Viettel. De cap nhat thong tin the thao trong nuoc va quoc te hoac tu van ve phap luat, Quy khach vui long goi 1069 (Gia cuoc: 3000 dong/ phut). Tran trong!
+tttk:"Đã SMS Truyền Thông"
+tnhh:Trách nhiệm hữu hạn
+ct:Công ty
+cp:Cổ phần

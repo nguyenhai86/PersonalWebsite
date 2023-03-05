@@ -24,9 +24,15 @@
     "description": "Lưu trữ chung"
   },
   {
-    "name": "Viettel 1068",
+    "name": "File Excel",
     "url": "FileExcel",
-    "avatar": "https://inhoangkien.vn/wp-content/uploads/2022/11/Logo-Tap-doan-vien-thong-Viettel-Moi-01-768x480.jpg",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/826px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png",
     "description": "File Excel"
+  },
+  {
+    "name": "File Macro",
+    "url": "FileMacro",
+    "avatar": "https://tin.shopdunk.com/wp-content/uploads/2021/12/UniKey.png",
+    "description": "File Macro"
   }
 ]
