@@ -18,29 +18,22 @@ function App() {
     link.download = filePath.substr(filePath.lastIndexOf("/") + 1);
     link.click();
   }
-  const handleClick = (url) => {
+  const handleClick = (url, name) => {
     // eslint-disable-next-line
-    if (url == "FileExcel") {
+    if (name == "Person File") {
       let password = prompt("Password: ");
       if (
         password != null &&
         hashPassword(password) === hashPasswordStr.value
       ) {
-        downloadFile(fileExcel);
+        window.open(url);
       } else alert("Password is wrong");
-    }
-    // eslint-disable-next-line
-    else if (url == "FileMacro") {
-      downloadFile(fileMacro);
-    } // eslint-disable-next-line
-    else if (url == "FileDoc") {
-      downloadFile(fileDoc);
     } else window.open(url);
   };
   const mapData = () => {
     return data.map((value, index) => {
       return (
-        <tr key={index} onClick={() => handleClick(value.url)}>
+        <tr key={index} onClick={() => handleClick(value.url, value.name)}>
           <td className="name">
             <img
               src={value.avatar}

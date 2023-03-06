@@ -24,21 +24,9 @@
     "description": "Lưu trữ chung"
   },
   {
-    "name": "File Excel",
-    "url": "FileExcel",
-    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/826px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png",
-    "description": "File Excel"
-  },
-  {
-    "name": "File Macro",
-    "url": "FileMacro",
-    "avatar": "https://tin.shopdunk.com/wp-content/uploads/2021/12/UniKey.png",
-    "description": "File Macro"
-  },
-  {
-    "name": "File ND100",
-    "url": "FileDoc",
-    "avatar": "https://thehanoichamomile.files.wordpress.com/2019/06/12-121390_new-microsoft-word-icon.jpg",
-    "description": "File Nghị định 100/2019"
+    "name": "Person File",
+    "url": "https://github.com/nguyenhai1806/PersonalWebsite/tree/master/src/Data",
+    "avatar": "https://images.pexels.com/photos/2698519/pexels-photo-2698519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Person file"
   }
 ]
