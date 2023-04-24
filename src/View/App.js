@@ -12,7 +12,7 @@ function App() {
 
   const handleClick = (url, name) => {
     // eslint-disable-next-line
-    if (name == "Person File") {
+    if (name == "Excel" || name == "File Zip") {
       let password = prompt("Password: ");
       if (
         password != null &&
