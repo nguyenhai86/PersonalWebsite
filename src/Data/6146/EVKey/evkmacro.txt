@@ -1,0 +1,13 @@
+﻿<<Đây là dòng làm dấu Unicode, không được sửa hoặc xoá dòng này>>
+12||198/5
+68||Cam on Quy khach da goi den Tong dai Thong tin Kinh te - Xa hoi 1068 cua Viettel. De cap nhat thong tin the thao trong nuoc va quoc te hoac tu van ve phap luat, Quy khach vui long goi 1069 (Gia cuoc: 3000 dong/ phut). Tran trong!
+da||=====Đã SMS Truyền Thông=====
+ds||Không có thông tin , nhờ BO kiểm tra ================
+ltk||http://10.240.167.247:8068/ThongKeCuocGoi.aspx
+6146||vt_cskh_kchai6146_cc2
+gtnd||Tong dai 1068 gui thong tin theo yêu cầu Quy khach: De biet thong tin khac vui long goi 1068. Xin tran trong cam on!
+gttk||===ĐÃ SMS KH===
+wifi||18008119
+ldown||https://ytop1.com/en400
+ltinh||http://10.240.167.247:8068/GD_TrangChu/TinNong_ChiTiet.aspx?TinNongID=42096&VipID=0
+chatgpt||kehdoserv@hotmail.com
