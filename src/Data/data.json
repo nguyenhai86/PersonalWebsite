@@ -7,13 +7,13 @@
   },
   {
     "name": "Youtube",
-    "url": "https://www.youtube.com/channel/UC7owxdUazZMSs7Lc9mT7sgw",
+    "url": "https://www.youtube.com/@meomap1806",
     "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png",
     "description": "Kênh youtube cá nhân"
   },
   {
     "name": "Github",
-    "url": "https://github.com/nguyenhai1806",
+    "url": "https://github.com/nguyenhai86",
     "avatar": "https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png",
     "description": "Github cá nhân"
   },
@@ -22,5 +22,11 @@
     "url": "https://nguyenhai1806-my.sharepoint.com/:f:/g/personal/nguyenhai_nguyenhai1806_onmicrosoft_com/EkoSkB7PTPhAqy2giu0KxE4BR0bGXPhSf6Bqmf__x8KxWg?e=RpCpJI",
     "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Microsoft_Office_OneDrive_%282019%E2%80%93present%29.svg/512px-Microsoft_Office_OneDrive_%282019%E2%80%93present%29.svg.png?20220402045433",
     "description": "Lưu trữ chung"
+  },
+  {
+    "name": "Mobifone",
+    "url": "https://datasos.mobifone.vn/home/",
+    "avatar": "https://datasos.mobifone.vn/home/_next/static/media/logoFooter.0ab7d688.svg",
+    "description": "Các gói data Mobifone"
   }
 ]
