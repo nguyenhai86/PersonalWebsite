@@ -25,6 +25,8 @@ p {
 .table {
   width: 100%;
   overflow: hidden;
+  border-radius: 1rem !important;
+  overflow: hidden;
   .avatar {
     width: 3rem;
     height: 3rem;
@@ -47,6 +49,7 @@ p {
     tr {
       border-radius: 2rem;
       cursor: pointer;
+      transition: background-color 0.25s linear;
       &:nth-child(2n + 1) {
         background-color: #f3f3f3;
       }
@@ -65,4 +68,4 @@ p {
   .container {
     padding: 5rem 1rem 0rem 1rem;
   }
-} ;
+}
