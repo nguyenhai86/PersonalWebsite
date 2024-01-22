@@ -26,7 +26,13 @@
   {
     "name": "Mobifone",
     "url": "https://datasos.mobifone.vn/home/",
-    "avatar": "https://datasos.mobifone.vn/home/_next/static/media/logoFooter.0ab7d688.svg",
+    "avatar": "https://play-lh.googleusercontent.com/rGSQFdxLz8-8lKQXZuzWDTs1fcA6QbnRXSik0cJFGP2chv9vV6nI-UPngsg-io9NIw",
     "description": "Các gói data Mobifone"
+  },
+  {
+    "name": "Xmind",
+    "url": "https://xmind.app/m/USxNMZ",
+    "avatar": "https://cdn.icon-icons.com/icons2/3053/PNG/512/xmind_macos_bigsur_icon_189540.png",
+    "description": "So do Mobifone"
   }
 ]
